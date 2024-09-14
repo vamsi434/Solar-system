@@ -21,7 +21,7 @@ jobs:
              - nodejs_version: 18
                operating_system: macos-latest                
       runs-on: ${{ matrix.operating_system }}
-     steps:
+      steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Setup NodeJS Version
