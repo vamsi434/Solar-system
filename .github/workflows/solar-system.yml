@@ -28,7 +28,7 @@ jobs:
         - name: Setup NodeJS Version
           uses: actions/setup-node@v3
           with:
-            node-version: ${{matrix.nodsjs_version}}
+            node-version: ${{ matrix.nodsjs_version }}
     
         - name: Install Dependencies
           run: npm install
